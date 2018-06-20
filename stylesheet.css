@@ -1,0 +1,13 @@
+h1 { color: red; text-decoration: underline;
+    font-size: 300%; }
+
+h2:hover {cursor: pointer; font-style: italic; }
+h2 {background-color: chocolate;}
+
+body {background-color: bisque}
+
+h3 { color: blue; }
+
+#pvm { background-color: pink; color: white;
+    font-size: 200%; font-style: normal;
+    font-weight: bolder; text-justify-trim: center;}

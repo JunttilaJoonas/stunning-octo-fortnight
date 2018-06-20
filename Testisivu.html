@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Joonaksen sivusto</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+<h1>HTML-testailua</h1>
+
+<h2>Päivämäärän ja ajan tulostelua</h2>
+    <div id="pvm"></div>
+
+<h2>Kalenteri</h2>
+<div id="kalenterielementti">
+
+</div>
+
+<h2>Laskin</h2>
+<div>
+    <p>
+        <input type="number" id="eka"> +
+        <input type="number" id="toka">
+        <input type="button" value="Laske!" onclick="laske()">
+    </p>
+
+    Lukujen summa on
+    <output id="tulos">
+    </output>
+</div>
+
+<h1>Sivun osien piilottelua</h1>
+
+<h2 onclick="piilota()">Lorem ipsum.</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque consequuntur cum dicta, dolor dolore
+            doloribus eaque eos, error esse illo ipsum itaque laborum molestias quo quod, repudiandae soluta suscipit voluptas
+            voluptatum? Alias labore maxime nesciunt placeat similique. Aut cumque, doloribus earum error facere harum illo,
+            illum inventore magnam porro ratione rerum tempora. Aperiam architecto aut commodi cum, earum error excepturi
+            exercitationem expedita facilis hic illo ipsum iure laboriosam libero maxime minus natus numquam officiis
+            perspiciatis porro quae qui quibusdam quo rerum similique totam vero voluptates. Beatae cumque debitis est neque
+            numquam omnis quia unde? Atque beatae consequatur eos rerum?</p>
+        <p>Alias aliquam atque commodi consequatur dolorum explicabo iste, labore libero modi molestiae nobis nostrum, nulla
+            quia rem suscipit ullam voluptates. Consequuntur, enim eveniet facere fugiat impedit nostrum quod. Aliquid aut
+            consequatur dolor, itaque quam sint suscipit totam. Alias, assumenda culpa esse et quae quisquam repellat tempore?
+            Ab dolore mollitia ratione. Animi beatae exercitationem harum ipsum numquam ratione, recusandae sapiente voluptate.
+            A adipisci assumenda, culpa esse fuga impedit praesentium provident? Ab aperiam architecto assumenda beatae debitis
+            dolore dolorem doloremque dolorum ea neque quo, ratione sed vel. Ab animi fugit maiores modi quaerat rerum sunt,
+            veritatis. Architecto ex ipsum quas soluta sunt.</p>
+        <p>At, autem error facere harum pariatur quos repudiandae suscipit temporibus unde? Accusantium ad animi architecto
+            dolorem dolorum explicabo ipsam quos rerum sint voluptates. Officia sapiente velit voluptate! Adipisci animi aperiam
+            aut autem consectetur consequuntur cumque dicta distinctio dolorum, esse excepturi exercitationem id ipsam iste iure
+            labore libero nemo neque odit pariatur placeat provident quaerat quasi quia quidem quos rem repellat saepe sequi
+            sint sit soluta unde velit vero voluptas voluptate voluptates! Accusantium assumenda commodi distinctio doloribus
+            earum eligendi fugiat harum in incidunt inventore iure laboriosam nisi obcaecati officia optio perspiciatis quae
+            quasi quis, soluta ullam velit vero voluptas voluptatem voluptatibus.</p>
+    </div>
+<h2 onclick="piilota()">Lorem ipsum.</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque consequuntur cum dicta, dolor dolore
+            doloribus eaque eos, error esse illo ipsum itaque laborum molestias quo quod, repudiandae soluta suscipit voluptas
+            voluptatum? Alias labore maxime nesciunt placeat similique. Aut cumque, doloribus earum error facere harum illo,
+            illum inventore magnam porro ratione rerum tempora. Aperiam architecto aut commodi cum, earum error excepturi
+            exercitationem expedita facilis hic illo ipsum iure laboriosam libero maxime minus natus numquam officiis
+            perspiciatis porro quae qui quibusdam quo rerum similique totam vero voluptates. Beatae cumque debitis est neque
+            numquam omnis quia unde? Atque beatae consequatur eos rerum?</p>
+        <p>Alias aliquam atque commodi consequatur dolorum explicabo iste, labore libero modi molestiae nobis nostrum, nulla
+            quia rem suscipit ullam voluptates. Consequuntur, enim eveniet facere fugiat impedit nostrum quod. Aliquid aut
+            consequatur dolor, itaque quam sint suscipit totam. Alias, assumenda culpa esse et quae quisquam repellat tempore?
+            Ab dolore mollitia ratione. Animi beatae exercitationem harum ipsum numquam ratione, recusandae sapiente voluptate.
+            A adipisci assumenda, culpa esse fuga impedit praesentium provident? Ab aperiam architecto assumenda beatae debitis
+            dolore dolorem doloremque dolorum ea neque quo, ratione sed vel. Ab animi fugit maiores modi quaerat rerum sunt,
+            veritatis. Architecto ex ipsum quas soluta sunt.</p>
+        <p>At, autem error facere harum pariatur quos repudiandae suscipit temporibus unde? Accusantium ad animi architecto
+            dolorem dolorum explicabo ipsam quos rerum sint voluptates. Officia sapiente velit voluptate! Adipisci animi aperiam
+            aut autem consectetur consequuntur cumque dicta distinctio dolorum, esse excepturi exercitationem id ipsam iste iure
+            labore libero nemo neque odit pariatur placeat provident quaerat quasi quia quidem quos rem repellat saepe sequi
+            sint sit soluta unde velit vero voluptas voluptate voluptates! Accusantium assumenda commodi distinctio doloribus
+            earum eligendi fugiat harum in incidunt inventore iure laboriosam nisi obcaecati officia optio perspiciatis quae
+            quasi quis, soluta ullam velit vero voluptas voluptatem voluptatibus.</p>
+    </div>
+<h2 onclick="piilota()">Lorem ipsum dolor sit.</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque consequuntur cum dicta, dolor dolore
+            doloribus eaque eos, error esse illo ipsum itaque laborum molestias quo quod, repudiandae soluta suscipit voluptas
+            voluptatum? Alias labore maxime nesciunt placeat similique. Aut cumque, doloribus earum error facere harum illo,
+            illum inventore magnam porro ratione rerum tempora. Aperiam architecto aut commodi cum, earum error excepturi
+            exercitationem expedita facilis hic illo ipsum iure laboriosam libero maxime minus natus numquam officiis
+            perspiciatis porro quae qui quibusdam quo rerum similique totam vero voluptates. Beatae cumque debitis est neque
+            numquam omnis quia unde? Atque beatae consequatur eos rerum?</p>
+        <p>Alias aliquam atque commodi consequatur dolorum explicabo iste, labore libero modi molestiae nobis nostrum, nulla
+            quia rem suscipit ullam voluptates. Consequuntur, enim eveniet facere fugiat impedit nostrum quod. Aliquid aut
+            consequatur dolor, itaque quam sint suscipit totam. Alias, assumenda culpa esse et quae quisquam repellat tempore?
+            Ab dolore mollitia ratione. Animi beatae exercitationem harum ipsum numquam ratione, recusandae sapiente voluptate.
+            A adipisci assumenda, culpa esse fuga impedit praesentium provident? Ab aperiam architecto assumenda beatae debitis
+            dolore dolorem doloremque dolorum ea neque quo, ratione sed vel. Ab animi fugit maiores modi quaerat rerum sunt,
+            veritatis. Architecto ex ipsum quas soluta sunt.</p>
+        <p>At, autem error facere harum pariatur quos repudiandae suscipit temporibus unde? Accusantium ad animi architecto
+            dolorem dolorum explicabo ipsam quos rerum sint voluptates. Officia sapiente velit voluptate! Adipisci animi aperiam
+            aut autem consectetur consequuntur cumque dicta distinctio dolorum, esse excepturi exercitationem id ipsam iste iure
+            labore libero nemo neque odit pariatur placeat provident quaerat quasi quia quidem quos rem repellat saepe sequi
+            sint sit soluta unde velit vero voluptas voluptate voluptates! Accusantium assumenda commodi distinctio doloribus
+            earum eligendi fugiat harum in incidunt inventore iure laboriosam nisi obcaecati officia optio perspiciatis quae
+            quasi quis, soluta ullam velit vero voluptas voluptatem voluptatibus.</p>
+    </div>
+
+<script src = "js/Paivaykset.js"></script>
+<script src = "js/TapahtumatLaskin.js"></script>
+<script src = "js/TapahtumatSivunOsienPiilottaminen.js"></script>
+</body>
+</html>
