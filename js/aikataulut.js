@@ -29,3 +29,5 @@ function haedata() {
     req.send(null);
 }
 
+//testikommentti
+
